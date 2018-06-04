@@ -1,0 +1,7 @@
+﻿<NUnitProject>
+  <Settings activeconfig="Default" />
+  <Config name="Default" binpathtype="Auto">
+    <assembly path="VodaiOS.dll" />
+    <assembly path="VodaiOS1.dll" />
+  </Config>
+</NUnitProject>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!--This file represents the results of running a test suite-->
+<test-results name="C:\Users\bbdnet1454\Desktop\Projects\XTC\Veri 9.8\VodaiOSPRODLocal\VodaiOS\bin\Debug\DailyVerification.dll" total="1" errors="1" failures="0" not-run="0" inconclusive="0" ignored="0" skipped="0" invalid="0" date="2018-05-31" time="12:44:48">
+  <environment nunit-version="2.6.1.12217" clr-version="4.0.30319.42000" os-version="Microsoft Windows NT 6.2.9200.0" platform="Win32NT" cwd="C:\Users\bbdnet1454\Desktop\Projects\XTC\Veri 9.8\VodaiOSPRODLocal\VodaiOS\bin\Debug" machine-name="LEHLOHONOLOMAC" user="bbdnet1454" user-domain="BBDNET" />
+  <culture-info current-culture="en-US" current-uiculture="en-US" />
+  <test-suite type="Assembly" name="C:\Users\bbdnet1454\Desktop\Projects\XTC\Veri 9.8\VodaiOSPRODLocal\VodaiOS\bin\Debug\DailyVerification.dll" executed="True" result="Failure" success="False" time="26.934" asserts="0">
+    <results>
+      <test-suite type="ParameterizedFixture" name="Help" executed="True" result="Failure" success="False" time="26.925" asserts="0">
+        <results>
+          <test-suite type="TestFixture" name="Help(Android)" executed="True" result="Failure" success="False" time="26.923" asserts="0">
+            <results>
+              <test-case name="Help(Android).FAQsTest" executed="True" result="Error" success="False" time="26.904" asserts="0">
+                <failure>
+                  <message><![CDATA[System.Exception : Error while performing Tap(XPath("//*[@id="portangularappgridview"]/div[1]/div[1]/div/a"))
+  ----> System.Exception : Unable to find element. Query for XPath("//*[@id="portangularappgridview"]/div[1]/div[1]/div/a") gave no results.]]></message>
+                  <stack-trace><![CDATA[at Xamarin.UITest.Utils.ErrorReporting.With(Action func, Object[] args, String memberName)
+at Help.FAQsTest() in C:\Users\bbdnet1454\Desktop\Projects\XTC\Veri 9.8\VodaiOSPRODLocal\VodaiOS\Source\VerifiOne\Help(FAQs).cs:line 57
+--Exception
+at Xamarin.UITest.SharedApp.FirstWithLog[T](T[] results, ITokenContainer tokenContainer)
+at Xamarin.UITest.Android.AndroidApp.<Tap>c__AnonStoreyC.<>m__0()
+at Xamarin.UITest.Utils.ErrorReporting.With(Action func, Object[] args, String memberName)
+]]></stack-trace>
+                </failure>
+              </test-case>
+            </results>
+          </test-suite>
+        </results>
+      </test-suite>
+    </results>
+  </test-suite>
+</test-results>

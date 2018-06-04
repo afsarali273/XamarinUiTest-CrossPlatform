@@ -1,0 +1,336 @@
+Welcometo,Welcome to
+MyVodacom,My Vodacom
+PleaseEnterNumberLabel,PleaseEnterNumberLabel
+Cellphonenumber,Cellphone number
+CellphoneNumberTextBox,Cellphone Number Text Box
+ProceedButton,Proceed button
+ProceedButtonForgrt,ProceedButton
+PasswordTextBox,Password
+UserNameTextBox,User name
+Loginto,Log in to
+Username,Username
+android.widget.ImageView,android.widget.ImageView
+Password,Password
+LoginButton,Login
+Platform_DefaultRenderer,Platform_DefaultRenderer
+MenuButtonIcon,MenuButtonIcon
+Menu,Menu
+FormsImageView,FormsImageView
+NoThanks,No Thanks
+Logout,Logout
+WelcomeMessageLabel,WelcomeMessageLabel
+WelcometoMyVodacom,Welcome to My Vodacom
+QuickbuyButton,Quick buy Button
+Updateavailable,Update available
+Remindmelater,Remind me later
+Pleasenote,Please note
+Cancel,Cancel
+MenuButton,Menu Button
+Proceed,Proceed
+Ok,Ok
+OK,OK
+databalBtn,Data Balances button
+AccDetails,Account details
+AccountDetails,Account Details
+Name,Name
+Surname,Surname
+RICAstatus,RICA status
+Registered,Registered
+ServProv,Service provider
+VSP,VSP
+PUK,PUK
+AccType,Account Type
+contarct,CONTRACT
+Hybrid,HYBRID
+prepaid,PREPAID
+SIM,SIM
+SIMType,SIM Type
+Plan,Plan
+Handset,Handset
+AccNumber,Account Number
+dueDate,Payment Due Date
+UpgradeDate,Upgrade Date
+InvoiceDueDate,Latest Invoice Due Date
+InvoiceCost,Latest Invoice Cost
+EndDate,Contract End Date
+orderDate,Debit Order Date
+DueforanUpgrade,Due for an Upgrade
+LastRechargeDate,Last Recharge Date
+Unavailable,Unavailable
+FreeChange,Free Change
+BundleType,BundleType
+Update,Update
+Youarecurrentlyon,You are currently on a
+Selectpriceplan,Select a price plan
+79Cents,79Cents
+AnytimePerSecond,Anytime Per Second
+DailyFreeCalls,Daily Free Calls
+NXTLVL,NXT LVL
+PowerBonus,Power Bonus
+Vodacom4Less,Vodacom 4 Less
+Buybundles,Buy bundles
+Backbtn,Back
+MyAccount,My Account
+DetailBal,Detail balances
+DataBal,Data balance details
+VoiceBal,Voice balance details
+SMSBal,SMS balance details
+MMSBal,MMS balance details
+SMSBalBtn,Text Balances button
+Mybill,My bill
+Just4You,Just 4 You
+Selectbundle,Select a bundle
+Shopping,Shopping
+Services,Services
+SendFreeSMS,Send Free SMS
+Recharge,Recharge
+Contacts,Contacts
+CellTextBox,CellTextBoxID
+PurchaseHistory,Purchase History
+Manageservices,Manage services
+Vodacomrewards,Vodacom rewards
+Partnerrewards,Partner rewards
+Competitionsandpromotions,Competitions and Promotions
+PlayEveryDay,Play Every Day
+MyProfile,My Profile
+Settings,Settings
+PrivacyPolicy,PrivacyPolicy
+help,Help
+HelpMe,Help Me
+ContactUs,Contact Us
+Clickchat,Click to chat
+Coveragemaps,Coverage maps
+Mymessages,My messages
+data,Data
+Whodoyouwanttobuyfor,Who do you want to buy for
+Typeofbundle,Type of bundle you want to buy?
+SelectypeofDatabundle,Select the type of Data bundle
+OnceoffDatabundle,Once-off Data bundle
+Databundlesize,Select the Data bundle size
+Purchasesummary,Purchase summary
+for,For:
+Payingfrom,Paying from:
+Product,Product:
+Paymentmethod,Payment method:
+Totalamountdue,Total amount due:
+Inbundlerate,In-bundle rate:
+Outofbundlerate,Out-of-bundle rate:
+More,More
+CloseLinkedNumberButtonIcon,Close list  
+Voicebalbtn,Voice balances buttonSIM
+Voice,Voice
+Howyouliketopay,How would you like to pay?
+termsandconditions,terms and conditions
+Billsofar,Bill so far
+amountdelayed12hours,This amount may be delayed by up to 12 hours.
+ViewDetailsButton,ViewDetailsButton
+Description,Description
+Totalamount,Total amount
+Total,Total
+Home,Home
+Invoice,Invoice
+Statement,Statement
+Top10diallednumbers,Top 10 dialled numbers
+Latesttransactions,Latest transactions
+Rechargehistory,Recharge history
+Amount,Amount
+Balance,Balance
+date,Date
+Rechargetype,Recharge type
+Callus,Call us
+Emailus,Email us
+androidwebkitWebView,android.webkit.WebView
+Location,Location
+CoveragemapMsg,Please enable location services in order to use Coverage Maps.
+ForgottenPasswordButton,ForgottenPasswordButton
+FpLabel,FpLabel
+SmsSwitchBtn,SmsSwitchButton
+OtpLabel,OtpLabel
+SimcardNumber,Enter your 20 digit SIM card number.
+SimTextBox,SimTextBox
+ForgotPassword,Forgot Password
+Myoffers,My offers
+Smartrecommendations,Smart recommendations
+PurchaseHistory,Purchase History
+NXTLVLShow,NXT LVL Show
+VodacomApps,Vodacom Apps
+RewardsEveryDay,Rewards Every Day
+MegYourDay,Meg Your Day
+Outlets,Outlets
+LimitAmountTextBox,LimitAmountTextBox
+AirtimeBal,Airtime balance details
+TalkingpointsBal,Talking points balance details
+androidView,android.view.View
+ActivateNXTLVL,Activate NXT LVL
+ViewDetails,View Details
+androidwidgetListView,android.widget.ListView
+Billperiod,Bill period
+Totalinvoicedue,Total invoice due 
+androidwidgetEditText,android.widget.EditTextinvoice due
+Successbtn,Success
+WereSorryMsg,We're Sorry
+Startdate,Start date
+Enddate,End date
+Totaldue,Total due
+Emailstatement,Email statement
+EmailInvoice,Email Invoice
+DatePicker,DatePicker
+Enternumber,Enter number
+Messagetxt,Message
+UltimateMusic,The Ultimate in music and lifestyle
+Exclusiveunder25,Exclusive to under 25's.
+SouthAfricanID,Enter your South African ID number
+IdTextBoxfld,IdTextBox
+Activatebtn,Activate
+Deactivatebtn,Deactivate
+TandC,Terms and Conditions.
+WelcometoNXTLVL,Welcome to Vodacom NXT LVL
+ScrollViewRenderer,ScrollViewRenderer
+TextBalancesBtn,Text Balances button
+SMStxt,SMS
+Youhave50,You have 50
+NextlvlGiftbtn,Next Level Gift button
+Giftstxt,Gifts
+DeactivateNXTLVL,Deactivate NXT LVL
+Selectlinkednumber,Select a linked number
+SelecttypeNXTLVLbundle,Select the type of NXT LVL bundle
+SelectNXTLVLbundlesize,Select the NXT LVL bundle size
+50MBplan,50MB
+Whoyouwantgivegift,Who do you want to give a gift to?
+AnotherVodacomnumber,Another Vodacom number
+phonebookNumber,Enter another Vodacom number or choose from your phonebook
+EntryEditText,EntryEditText
+Registerbtn,Register
+RegisterMyVodacom,Register for My Vodacom
+EmailTextBox,EmailTextBox
+FirstName,First Name
+FirstNameTextBox,FirstNameTextBox
+LastName,Last Name
+Firstnamerequired,First name is required
+Lastnamerequired,Last name is required
+Cellphonenumberrequired,Cellphone number is required
+CellphoneTextBox,CellphoneTextBox
+Email,Email
+Emailaddressrequired,Email address is required
+SouthAfricanIDnumber,South African ID number
+IDNumber,ID Number
+PassportNumber,Passport Number
+PassTextBox,PassTextBox
+DOB,Date of Birth
+CountryofIssue,Country of Issue
+RegisterCreatePassLabel,RegisterCreatePassLabel
+RegisterPassLabel,RegisterPassLabel
+ConfirmPasswordTextBox,ConfirmPasswordTextBox
+NewPasswordTextBox,NewPasswordTextBox
+passwordErrorMsg,Password must meet the minimum requirements
+ConfirmPassword,Confirm Password
+SecretQuestionLabel,SecretQuestionLabel
+SecretQuestionDescriptionLabel,SecretQuestionDescriptionLabel
+Passwordmustmatch,Password must match
+AnswerTextBox,AnswerTextBox
+QuestionPicker,QuestionPicker
+Selectsecretque,Select a secret question
+CancelBtn,CancelButton
+NxtLvlRegistration,NxtLvl Registration
+RegisterButton,RegisterButton
+LastNameTextBox,LastNameTextBox
+NewPassword,New Password
+Answer,Answer
+DetailTermsLinkL,DetailTermsLink
+T&C,Terms & Conditions
+ResendOTPBtn,Re-send O.T.P
+OTP,OTP
+SimcardNum, SIM Card Number
+MessageTEXT,Message
+TextMessageTextBox,TextMessageTextBox
+SendSmsBtn,SendSmsButton
+ScheduleSMS,Schedule your SMS?
+ScheduleSmsSwitchBtn,ScheduleSmsSwitchButton
+TimePickar,TimePicker
+devicesavailable,devices available
+Scrollviewmore,Scroll to view more
+Filterbtn,Filter
+RelativeLayoutcls,RelativeLayout
+title,title
+Packagedetails,Package details
+Airtimetext,Airtime
+MBtext,MB
+Specificationsbtn,Specifications
+RadioBtn,RadioButton
+GetDeal,Get This Deal
+Placeorder,Place your order
+FirstNameShopping,*First Name
+LastNameShopping,*Last Name
+AlternativeCellphoneNum,Alternative Cellphone Number
+CellphoneNumShopping,*Cellphone Number
+IdentificationtypeShopping,*Identification type
+Emailshopping,*Email
+Filteryoursearch,Filter your search
+pricerange,Set a price range
+Selectmanufacturer,Select a manufacturer
+Appleph,Apple
+ApplyFilters,Apply Filters
+ResetFilters,Reset Filters
+Huaweiph,Huawei
+Samsungph,Samsung
+SonyXperia,Sony Xperia
+BuyMoreBtn,BuyMoreButton
+Myairtimebal,My airtime balance is
+OnceOffBalPanel,OnceOffBalancePanel
+Onceoffbalances,Once-off balances
+Recurringbal,Recurring balances
+Restrictedbal,Restricted balances
+Onceoffrestrictedbal,Once-off restricted balances
+Recurringrestrictedbal,Recurring restricted balances
+Linkednumbers,Linked numbers
+Databundle,Data bundle
+LinkedNumbersListnum,LinkedNumbersList
+SelectBundleType,Select a Bundle Type
+AirtimeAmounttxt,AirtimeAmount
+SMSbundletxt,SMS bundle
+BundleType,BundleType
+OnceoffSMSbundletxt,Once-off SMS bundle
+SelectSMSbundlesize,Select the SMS bundle size
+Airtimebalances,Airtime balances
+MMSbundle,MMS bundle
+BundleSize,BundleSize
+OnceOffMMSbundle,Once-off MMS bundle
+GConnectWifibundle,G-Connect Wifi bundle
+OnceoffGConnectWifibundle,Once-off G-Connect Wifi bundle
+MonthlyrecurringMMSbundle,Monthly recurring MMS bundle
+HowmuchAirtime,How much Airtime?
+My5,My 5,
+OnceoffMy5,Once-off My 5
+Voicebalancesbtn,Voice balances button
+TestTxt,Test
+Tryagain,Try again
+OtpTextBox,O.T.P
+BackBtnIcon,Back
+NxtLvlRegistration,NxtLvl Registration
+PleaseenterOneTimePIN,Please enter the One-Time PIN
+RechargeLabel,RechargeLabel
+RechargePINnumber,Recharge PIN number
+EnterVodacomPrepaidnumber,Enter Vodacom Prepaid number
+PinTextBox,PinTextBox
+RechargeBtn,RechargeButton
+BuyBtn,BuyButton
+ConfirmRecharge,Confirm Recharge
+AllStores,All Stores
+FindyournearestVodacomOutlet,Find your nearest Vodacom Outlet
+SearchTextBox,SearchTextBox
+SearchBtnIcon,SearchButtonIcon
+Chatz,Chatz
+RepairCentre,Repair Centre
+Vodacom4U,Vodacom 4U
+VodacomApprovedDealer,Vodacom Approved Dealer
+VodacomExpress,Vodacom Express
+VodacomShop,Vodacom Shop
+VodacomPartnerRewards,Vodacom Partner Rewards
+Forceexception,Force exception
+MonthlyrecurringSMSbundle,Monthly recurring SMS bundle
+OK,OK
+BackToLogin,Back to login
+MyBill,My Bill
+SearchTextBoxID,SearchTextBoxID
+SearchButtonIconID,SearchButtonIconID
+BuyBundles,Buy Bundles

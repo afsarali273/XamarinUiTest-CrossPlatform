@@ -1,0 +1,48 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2036
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Verification", "MobileApps\Verification.csproj", "{5F9D7724-EFE2-440C-89A5-A27101550B13}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F9D7724-EFE2-440C-89A5-A27101550B13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F9D7724-EFE2-440C-89A5-A27101550B13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F9D7724-EFE2-440C-89A5-A27101550B13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F9D7724-EFE2-440C-89A5-A27101550B13}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9F243F89-4ABC-43E2-B02F-59E10FCB7A87}
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		Policies = $0
+		$0.DotNetNamingPolicy = $1
+		$1.DirectoryNamespaceAssociation = None
+		$1.ResourceNamePolicy = FileFormatDefault
+		$0.StandardHeader = $2
+		$2.Text = 
+		$2.IncludeInNewFiles = True
+		$0.NameConventionPolicy = $3
+		$3.Rules = $4
+		$4.NamingRule = $5
+		$5.Name = Type Parameters
+		$5.AffectedEntity = TypeParameter
+		$5.VisibilityMask = VisibilityMask
+		$5.NamingStyle = PascalCase
+		$5.IncludeInstanceMembers = True
+		$5.IncludeStaticEntities = True
+		$5.RequiredPrefixes = $6
+		$6.String = T
+		$5.RequiredSuffixes = $7
+		$7.String = Exception
+		$0.VersionControlPolicy = $8
+		$8.inheritsSet = Mono
+	EndGlobalSection
+EndGlobal

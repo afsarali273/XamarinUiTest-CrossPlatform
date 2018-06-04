@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="true">
+  <TopNode>[0-1020]C:\Users\Akani\Documents\Verification\NF Verification Scripts 9.3 &amp;9.4\VodaiOSPRODLocal\VodaiOS\bin\Debug\VodaiOS.dll</TopNode>
+  <SelectedNode>[0-1019]Outlets.OutletsTest</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1020]C:\Users\Akani\Documents\Verification\NF Verification Scripts 9.3 &amp;9.4\VodaiOSPRODLocal\VodaiOS\bin\Debug\VodaiOS.dll" Expanded="true" />
+    <Node UniqueName="[0-1000]ActivateNXTLVL" Expanded="true" />
+    <Node UniqueName="[0-1002]ContAccBalVerify" Expanded="true" />
+    <Node UniqueName="[0-1004]ContBuyBundlesVerify" Expanded="true" />
+    <Node UniqueName="[0-1006]ForgetPassword" Expanded="true" />
+    <Node UniqueName="[0-1008]HybBuyBundlesVerify" Expanded="true" />
+    <Node UniqueName="[0-1010]HybDetailAccBalVerify" Expanded="true" />
+    <Node UniqueName="[0-1012]HybRechargeHistory" Expanded="true" />
+    <Node UniqueName="[0-1014]LatestTrans" Expanded="true" />
+    <Node UniqueName="[0-1016]LinkedNumberAccBal" Expanded="true" />
+    <Node UniqueName="[0-1018]Outlets" Expanded="true" />
+  </Nodes>
+</VisualState>

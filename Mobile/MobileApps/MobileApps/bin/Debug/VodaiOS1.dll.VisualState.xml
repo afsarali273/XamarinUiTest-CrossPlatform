@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<VisualState xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ShowCheckBoxes="true">
+  <TopNode>[0-1024]C:\Users\Akani\Documents\Verification\NF Verification Scripts 9.3 &amp;9.4\VodaiOSPRODLocal\VodaiOS\bin\Debug\VodaiOS1.dll</TopNode>
+  <SelectedNode>[0-1001]LoginInvalidOTP.LoginInvalidOTPTest</SelectedNode>
+  <ExcludeCategories>false</ExcludeCategories>
+  <Nodes>
+    <Node UniqueName="[0-1024]C:\Users\Akani\Documents\Verification\NF Verification Scripts 9.3 &amp;9.4\VodaiOSPRODLocal\VodaiOS\bin\Debug\VodaiOS1.dll" Expanded="true" />
+    <Node UniqueName="[0-1000]LoginInvalidOTP" Expanded="true" />
+    <Node UniqueName="[0-1002]LoginLogoutUsernamePwd" Expanded="true" />
+    <Node UniqueName="[0-1004]LoginVerifyRecharge" Expanded="true" />
+    <Node UniqueName="[0-1006]NonMAHBuyBundles" Expanded="true" />
+    <Node UniqueName="[0-1008]PartnerRewards" Expanded="true" />
+    <Node UniqueName="[0-1010]PostLoginAccDetails" Expanded="true" />
+    <Node UniqueName="[0-1012]PostLoginContactUs" Expanded="true" />
+    <Node UniqueName="[0-1014]PostLoginHelpMe" Expanded="true" />
+    <Node UniqueName="[0-1016]PostLoginSettings" Expanded="true" />
+    <Node UniqueName="[0-1018]PreBuyBundlesVerify" Expanded="true" />
+    <Node UniqueName="[0-1020]PrepaidDetailAccBalVerify" Expanded="true" />
+    <Node UniqueName="[0-1022]SendFreeSMSInBulk" Expanded="true" />
+  </Nodes>
+</VisualState>

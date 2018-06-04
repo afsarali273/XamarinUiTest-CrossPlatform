@@ -1,0 +1,15 @@
+env,LIVE PROD
+Exectype,Local
+GlobalPassword,Testing1
+Hybridusername,0828717422
+LegacyContractUsername,0828716322
+nxtlvlusername,0818461725
+otpbypassnum,0715135502
+prepaidusername,0715036667
+usedpin,952789378178
+newpin,811135107072
+linkedNumberUsername,0826105483
+LinkedNumber,0646114571
+forgetpassnum,0828705152
+nonmahbuybunnum,0828716485
+contbundleusername,0828717233

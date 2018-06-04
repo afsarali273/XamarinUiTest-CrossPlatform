@@ -1,0 +1,67 @@
+C:\Users\Akani\Documents\Verification\NF Verification Scripts 9.3 &9.4\VodaiOSPRODLocal\VodaiOS\bin\Debug\VerifiTwo.dll
+C:\Users\Akani\Documents\Verification\NF Verification Scripts 9.3 &9.4\VodaiOSPRODLocal\VodaiOS\bin\Debug\VerifiTwo.pdb
+C:\Users\Akani\Documents\Verification\NF Verification Scripts 9.3 &9.4\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.dll
+C:\Users\Akani\Documents\Verification\NF Verification Scripts 9.3 &9.4\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.dll
+C:\Users\Akani\Documents\Verification\NF Verification Scripts 9.3 &9.4\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.xml
+C:\Users\Akani\Documents\Verification\NF Verification Scripts 9.3 &9.4\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.xml
+C:\Users\Akani\Documents\Verification\NF Verification Scripts 9.3 &9.4\VodaiOSPRODLocal\VodaiOS\obj\Debug\VerifiThree.csprojResolveAssemblyReference.cache
+C:\Users\Akani\Documents\Verification\NF Verification Scripts 9.3 &9.4\VodaiOSPRODLocal\VodaiOS\obj\Debug\VodaiOS.Properties.Resources.resources
+C:\Users\Akani\Documents\Verification\NF Verification Scripts 9.3 &9.4\VodaiOSPRODLocal\VodaiOS\obj\Debug\VerifiThree.csproj.GenerateResource.Cache
+C:\Users\Akani\Documents\Verification\NF Verification Scripts 9.3 &9.4\VodaiOSPRODLocal\VodaiOS\obj\Debug\VerifiTwo.dll
+C:\Users\Akani\Documents\Verification\NF Verification Scripts 9.3 &9.4\VodaiOSPRODLocal\VodaiOS\obj\Debug\VerifiTwo.pdb
+C:\Users\Akani\Documents\Verification\Verification scripts\VodaiOSPRODLocal\VodaiOS\bin\Debug\VerifiThree.dll
+C:\Users\Akani\Documents\Verification\Verification scripts\VodaiOSPRODLocal\VodaiOS\bin\Debug\VerifiThree.pdb
+C:\Users\Akani\Documents\Verification\Verification scripts\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.dll
+C:\Users\Akani\Documents\Verification\Verification scripts\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.dll
+C:\Users\Akani\Documents\Verification\Verification scripts\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.xml
+C:\Users\Akani\Documents\Verification\Verification scripts\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.xml
+C:\Users\Akani\Documents\Verification\Verification scripts\VodaiOSPRODLocal\VodaiOS\obj\Debug\VerifiThree.csprojResolveAssemblyReference.cache
+C:\Users\Akani\Documents\Verification\Verification scripts\VodaiOSPRODLocal\VodaiOS\obj\Debug\VodaiOS.Properties.Resources.resources
+C:\Users\Akani\Documents\Verification\Verification scripts\VodaiOSPRODLocal\VodaiOS\obj\Debug\VerifiThree.csproj.GenerateResource.Cache
+C:\Users\Akani\Documents\Verification\Verification scripts\VodaiOSPRODLocal\VodaiOS\obj\Debug\VerifiThree.dll
+C:\Users\Akani\Documents\Verification\Verification scripts\VodaiOSPRODLocal\VodaiOS\obj\Debug\VerifiThree.pdb
+C:\Users\Akani\Documents\Verification\Verification scripts 9.3 and 9.4 new\VodaiOSPRODLocal\VodaiOS\obj\Debug\VerifiThree.csprojResolveAssemblyReference.cache
+C:\Users\Akani\Documents\Verification\Verification scripts 9.3 and 9.4 new\VodaiOSPRODLocal\VodaiOS\obj\Debug\VodaiOS.Properties.Resources.resources
+C:\Users\Akani\Documents\Verification\Verification scripts 9.3 and 9.4 new\VodaiOSPRODLocal\VodaiOS\obj\Debug\VerifiThree.csproj.GenerateResource.Cache
+C:\Users\Akani\Documents\Verification\Verification scripts 9.3 and 9.4 new\VodaiOSPRODLocal\VodaiOS\bin\Debug\VerifiThree.dll
+C:\Users\Akani\Documents\Verification\Verification scripts 9.3 and 9.4 new\VodaiOSPRODLocal\VodaiOS\bin\Debug\VerifiThree.pdb
+C:\Users\Akani\Documents\Verification\Verification scripts 9.3 and 9.4 new\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.dll
+C:\Users\Akani\Documents\Verification\Verification scripts 9.3 and 9.4 new\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.dll
+C:\Users\Akani\Documents\Verification\Verification scripts 9.3 and 9.4 new\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.xml
+C:\Users\Akani\Documents\Verification\Verification scripts 9.3 and 9.4 new\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.xml
+C:\Users\Akani\Documents\Verification\Verification scripts 9.3 and 9.4 new\VodaiOSPRODLocal\VodaiOS\obj\Debug\VerifiThree.dll
+C:\Users\Akani\Documents\Verification\Verification scripts 9.3 and 9.4 new\VodaiOSPRODLocal\VodaiOS\obj\Debug\VerifiThree.pdb
+C:\Users\bbdnet1454\Desktop\Verification scripts 9.3 and 9.4 new\VodaiOSPRODLocal\VodaiOS\bin\Debug\VerifiThree.dll
+C:\Users\bbdnet1454\Desktop\Verification scripts 9.3 and 9.4 new\VodaiOSPRODLocal\VodaiOS\bin\Debug\VerifiThree.pdb
+C:\Users\bbdnet1454\Desktop\Verification scripts 9.3 and 9.4 new\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.dll
+C:\Users\bbdnet1454\Desktop\Verification scripts 9.3 and 9.4 new\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.dll
+C:\Users\bbdnet1454\Desktop\Verification scripts 9.3 and 9.4 new\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.xml
+C:\Users\bbdnet1454\Desktop\Verification scripts 9.3 and 9.4 new\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.xml
+C:\Users\bbdnet1454\Desktop\Verification scripts 9.3 and 9.4 new\VodaiOSPRODLocal\VodaiOS\obj\Debug\VodaiOS.Properties.Resources.resources
+C:\Users\bbdnet1454\Desktop\Verification scripts 9.3 and 9.4 new\VodaiOSPRODLocal\VodaiOS\obj\Debug\VerifiThree.csproj.GenerateResource.Cache
+C:\Users\bbdnet1454\Desktop\Verification scripts 9.3 and 9.4 new\VodaiOSPRODLocal\VodaiOS\obj\Debug\VerifiThree.dll
+C:\Users\bbdnet1454\Desktop\Verification scripts 9.3 and 9.4 new\VodaiOSPRODLocal\VodaiOS\obj\Debug\VerifiThree.pdb
+C:\Users\bbdnet1454\Desktop\Verification scripts 9.3 and 9.4 new\VodaiOSPRODLocal\VodaiOS\obj\Debug\VerifiThree.csprojResolveAssemblyReference.cache
+C:\Scripts\Veri 9.5\VodaiOSPRODLocal\VodaiOS\obj\Debug\VodaiOS.Properties.Resources.resources
+C:\Scripts\Veri 9.5\VodaiOSPRODLocal\VodaiOS\obj\Debug\VerifiThree.csproj.GenerateResource.Cache
+C:\Scripts\Veri 9.5\VodaiOSPRODLocal\VodaiOS\obj\Debug\VerifiThree.dll
+C:\Scripts\Veri 9.5\VodaiOSPRODLocal\VodaiOS\obj\Debug\VerifiThree.pdb
+C:\Scripts\Veri 9.5\VodaiOSPRODLocal\VodaiOS\bin\Debug\VerifiThree.dll
+C:\Scripts\Veri 9.5\VodaiOSPRODLocal\VodaiOS\bin\Debug\VerifiThree.pdb
+C:\Scripts\Veri 9.5\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.dll
+C:\Scripts\Veri 9.5\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.dll
+C:\Scripts\Veri 9.5\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.xml
+C:\Scripts\Veri 9.5\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.xml
+C:\Scripts\Veri 9.5\VodaiOSPRODLocal\VodaiOS\obj\Debug\VerifiThree.csprojResolveAssemblyReference.cache
+C:\Users\bbdnet1454\Desktop\Veri 9.6 & 9.5\VodaiOSPRODLocal\VodaiOS\bin\Debug\VerifiThree.dll
+C:\Users\bbdnet1454\Desktop\Veri 9.6 & 9.5\VodaiOSPRODLocal\VodaiOS\bin\Debug\VerifiThree.pdb
+C:\Users\bbdnet1454\Desktop\Veri 9.6 & 9.5\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.dll
+C:\Users\bbdnet1454\Desktop\Veri 9.6 & 9.5\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.dll
+C:\Users\bbdnet1454\Desktop\Veri 9.6 & 9.5\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.xml
+C:\Users\bbdnet1454\Desktop\Veri 9.6 & 9.5\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.xml
+C:\Users\bbdnet1454\Desktop\Veri 9.6 & 9.5\VodaiOSPRODLocal\VodaiOS\obj\Debug\VerifiThree.csprojResolveAssemblyReference.cache
+C:\Users\bbdnet1454\Desktop\Veri 9.6 & 9.5\VodaiOSPRODLocal\VodaiOS\obj\Debug\VodaiOS.Properties.Resources.resources
+C:\Users\bbdnet1454\Desktop\Veri 9.6 & 9.5\VodaiOSPRODLocal\VodaiOS\obj\Debug\VerifiThree.csproj.GenerateResource.Cache
+C:\Users\bbdnet1454\Desktop\Veri 9.6 & 9.5\VodaiOSPRODLocal\VodaiOS\obj\Debug\VerifiThree.csproj.CoreCompileInputs.cache
+C:\Users\bbdnet1454\Desktop\Veri 9.6 & 9.5\VodaiOSPRODLocal\VodaiOS\obj\Debug\VerifiThree.dll
+C:\Users\bbdnet1454\Desktop\Veri 9.6 & 9.5\VodaiOSPRODLocal\VodaiOS\obj\Debug\VerifiThree.pdb

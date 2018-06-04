@@ -1,0 +1,128 @@
+C:\Users\bbdnet1454\Desktop\Veri 9.6 & 9.5\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.dll
+C:\Users\bbdnet1454\Desktop\Veri 9.6 & 9.5\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.dll
+C:\Users\bbdnet1454\Desktop\Veri 9.6 & 9.5\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.xml
+C:\Users\bbdnet1454\Desktop\Veri 9.6 & 9.5\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.xml
+C:\Users\bbdnet1454\Desktop\Veri 9.6 & 9.5\VodaiOSPRODLocal\VodaiOS\obj\Debug\VodaiOS.Properties.Resources.resources
+C:\Users\bbdnet1454\Desktop\Veri 9.6 & 9.5\VodaiOSPRODLocal\VodaiOS\obj\Debug\Verification.csproj.GenerateResource.Cache
+C:\Users\bbdnet1454\Desktop\Veri 9.6 & 9.5\VodaiOSPRODLocal\VodaiOS\obj\Debug\Verification.csproj.CoreCompileInputs.cache
+C:\Users\bbdnet1454\Desktop\Veri 9.6 & 9.5\VodaiOSPRODLocal\VodaiOS\bin\Debug\DailyVerification.dll
+C:\Users\bbdnet1454\Desktop\Veri 9.6 & 9.5\VodaiOSPRODLocal\VodaiOS\bin\Debug\DailyVerification.pdb
+C:\Users\bbdnet1454\Desktop\Veri 9.6 & 9.5\VodaiOSPRODLocal\VodaiOS\obj\Debug\DailyVerification.dll
+C:\Users\bbdnet1454\Desktop\Veri 9.6 & 9.5\VodaiOSPRODLocal\VodaiOS\obj\Debug\DailyVerification.pdb
+C:\Scripts\Veri 9.6\VodaiOSPRODLocal\VodaiOS\bin\Debug\DailyVerification.dll
+C:\Scripts\Veri 9.6\VodaiOSPRODLocal\VodaiOS\bin\Debug\DailyVerification.pdb
+C:\Scripts\Veri 9.6\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.dll
+C:\Scripts\Veri 9.6\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.dll
+C:\Scripts\Veri 9.6\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.xml
+C:\Scripts\Veri 9.6\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.xml
+C:\Scripts\Veri 9.6\VodaiOSPRODLocal\VodaiOS\obj\Debug\Verification.csprojResolveAssemblyReference.cache
+C:\Scripts\Veri 9.6\VodaiOSPRODLocal\VodaiOS\obj\Debug\VodaiOS.Properties.Resources.resources
+C:\Scripts\Veri 9.6\VodaiOSPRODLocal\VodaiOS\obj\Debug\Verification.csproj.GenerateResource.Cache
+C:\Scripts\Veri 9.6\VodaiOSPRODLocal\VodaiOS\obj\Debug\DailyVerification.dll
+C:\Scripts\Veri 9.6\VodaiOSPRODLocal\VodaiOS\obj\Debug\DailyVerification.pdb
+Z:\App Automation\Verification scripts\veri 9.7 SDLL\VodaiOSPRODLocal\VodaiOS\bin\Debug\DailyVerification.dll
+Z:\App Automation\Verification scripts\veri 9.7 SDLL\VodaiOSPRODLocal\VodaiOS\bin\Debug\DailyVerification.pdb
+Z:\App Automation\Verification scripts\veri 9.7 SDLL\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.dll
+Z:\App Automation\Verification scripts\veri 9.7 SDLL\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.dll
+Z:\App Automation\Verification scripts\veri 9.7 SDLL\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.xml
+Z:\App Automation\Verification scripts\veri 9.7 SDLL\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.xml
+Z:\App Automation\Verification scripts\veri 9.7 SDLL\VodaiOSPRODLocal\VodaiOS\obj\Debug\Verification.csprojResolveAssemblyReference.cache
+Z:\App Automation\Verification scripts\veri 9.7 SDLL\VodaiOSPRODLocal\VodaiOS\obj\Debug\VodaiOS.Properties.Resources.resources
+Z:\App Automation\Verification scripts\veri 9.7 SDLL\VodaiOSPRODLocal\VodaiOS\obj\Debug\Verification.csproj.GenerateResource.Cache
+Z:\App Automation\Verification scripts\veri 9.7 SDLL\VodaiOSPRODLocal\VodaiOS\obj\Debug\Verification.csproj.CoreCompileInputs.cache
+Z:\App Automation\Verification scripts\veri 9.7 SDLL\VodaiOSPRODLocal\VodaiOS\obj\Debug\DailyVerification.dll
+Z:\App Automation\Verification scripts\veri 9.7 SDLL\VodaiOSPRODLocal\VodaiOS\obj\Debug\DailyVerification.pdb
+D:\App Project\Verification scripts\veri 9.7 SDLL\VodaiOSPRODLocal\VodaiOS\bin\Debug\DailyVerification.dll
+D:\App Project\Verification scripts\veri 9.7 SDLL\VodaiOSPRODLocal\VodaiOS\bin\Debug\DailyVerification.pdb
+D:\App Project\Verification scripts\veri 9.7 SDLL\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.dll
+D:\App Project\Verification scripts\veri 9.7 SDLL\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.dll
+D:\App Project\Verification scripts\veri 9.7 SDLL\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.xml
+D:\App Project\Verification scripts\veri 9.7 SDLL\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.xml
+D:\App Project\Verification scripts\veri 9.7 SDLL\VodaiOSPRODLocal\VodaiOS\obj\Debug\Verification.csprojResolveAssemblyReference.cache
+D:\App Project\Verification scripts\veri 9.7 SDLL\VodaiOSPRODLocal\VodaiOS\obj\Debug\VodaiOS.Properties.Resources.resources
+D:\App Project\Verification scripts\veri 9.7 SDLL\VodaiOSPRODLocal\VodaiOS\obj\Debug\Verification.csproj.GenerateResource.Cache
+D:\App Project\Verification scripts\veri 9.7 SDLL\VodaiOSPRODLocal\VodaiOS\obj\Debug\Verification.csproj.CoreCompileInputs.cache
+D:\App Project\Verification scripts\veri 9.7 SDLL\VodaiOSPRODLocal\VodaiOS\obj\Debug\DailyVerification.dll
+D:\App Project\Verification scripts\veri 9.7 SDLL\VodaiOSPRODLocal\VodaiOS\obj\Debug\DailyVerification.pdb
+D:\App Project\Verification scripts\veri 9.8 SDLL\VodaiOSPRODLocal\VodaiOS\bin\Debug\DailyVerification.dll
+D:\App Project\Verification scripts\veri 9.8 SDLL\VodaiOSPRODLocal\VodaiOS\bin\Debug\DailyVerification.pdb
+D:\App Project\Verification scripts\veri 9.8 SDLL\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.dll
+D:\App Project\Verification scripts\veri 9.8 SDLL\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.dll
+D:\App Project\Verification scripts\veri 9.8 SDLL\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.xml
+D:\App Project\Verification scripts\veri 9.8 SDLL\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.xml
+D:\App Project\Verification scripts\veri 9.8 SDLL\VodaiOSPRODLocal\VodaiOS\obj\Debug\VodaiOS.Properties.Resources.resources
+D:\App Project\Verification scripts\veri 9.8 SDLL\VodaiOSPRODLocal\VodaiOS\obj\Debug\Verification.csproj.GenerateResource.Cache
+D:\App Project\Verification scripts\veri 9.8 SDLL\VodaiOSPRODLocal\VodaiOS\obj\Debug\Verification.csproj.CoreCompileInputs.cache
+D:\App Project\Verification scripts\veri 9.8 SDLL\VodaiOSPRODLocal\VodaiOS\obj\Debug\DailyVerification.dll
+D:\App Project\Verification scripts\veri 9.8 SDLL\VodaiOSPRODLocal\VodaiOS\obj\Debug\DailyVerification.pdb
+D:\App Project\XTC\veri 9.8 SDLL\VodaiOSPRODLocal\VodaiOS\bin\Debug\DailyVerification.dll
+D:\App Project\XTC\veri 9.8 SDLL\VodaiOSPRODLocal\VodaiOS\bin\Debug\DailyVerification.pdb
+D:\App Project\XTC\veri 9.8 SDLL\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.dll
+D:\App Project\XTC\veri 9.8 SDLL\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.dll
+D:\App Project\XTC\veri 9.8 SDLL\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.xml
+D:\App Project\XTC\veri 9.8 SDLL\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.xml
+D:\App Project\XTC\veri 9.8 SDLL\VodaiOSPRODLocal\VodaiOS\obj\Debug\Verification.csprojResolveAssemblyReference.cache
+D:\App Project\XTC\veri 9.8 SDLL\VodaiOSPRODLocal\VodaiOS\obj\Debug\VodaiOS.Properties.Resources.resources
+D:\App Project\XTC\veri 9.8 SDLL\VodaiOSPRODLocal\VodaiOS\obj\Debug\Verification.csproj.GenerateResource.Cache
+D:\App Project\XTC\veri 9.8 SDLL\VodaiOSPRODLocal\VodaiOS\obj\Debug\Verification.csproj.CoreCompileInputs.cache
+D:\App Project\XTC\veri 9.8 SDLL\VodaiOSPRODLocal\VodaiOS\obj\Debug\DailyVerification.dll
+D:\App Project\XTC\veri 9.8 SDLL\VodaiOSPRODLocal\VodaiOS\obj\Debug\DailyVerification.pdb
+C:\Xamarin Cloud\Veri 9.8\VodaiOSPRODLocal\VodaiOS\bin\Debug\DailyVerification.dll
+C:\Xamarin Cloud\Veri 9.8\VodaiOSPRODLocal\VodaiOS\bin\Debug\DailyVerification.pdb
+C:\Xamarin Cloud\Veri 9.8\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.dll
+C:\Xamarin Cloud\Veri 9.8\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.dll
+C:\Xamarin Cloud\Veri 9.8\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.xml
+C:\Xamarin Cloud\Veri 9.8\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.xml
+C:\Xamarin Cloud\Veri 9.8\VodaiOSPRODLocal\VodaiOS\obj\Debug\Verification.csprojResolveAssemblyReference.cache
+C:\Xamarin Cloud\Veri 9.8\VodaiOSPRODLocal\VodaiOS\obj\Debug\VodaiOS.Properties.Resources.resources
+C:\Xamarin Cloud\Veri 9.8\VodaiOSPRODLocal\VodaiOS\obj\Debug\Verification.csproj.GenerateResource.Cache
+C:\Xamarin Cloud\Veri 9.8\VodaiOSPRODLocal\VodaiOS\obj\Debug\DailyVerification.dll
+C:\Xamarin Cloud\Veri 9.8\VodaiOSPRODLocal\VodaiOS\obj\Debug\DailyVerification.pdb
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Veri 9.8\VodaiOSPRODLocal\VodaiOS\bin\Debug\DailyVerification.dll
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Veri 9.8\VodaiOSPRODLocal\VodaiOS\bin\Debug\DailyVerification.pdb
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Veri 9.8\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.dll
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Veri 9.8\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.dll
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Veri 9.8\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.xml
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Veri 9.8\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.xml
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Veri 9.8\VodaiOSPRODLocal\VodaiOS\obj\Debug\Verification.csprojResolveAssemblyReference.cache
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Veri 9.8\VodaiOSPRODLocal\VodaiOS\obj\Debug\VodaiOS.Properties.Resources.resources
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Veri 9.8\VodaiOSPRODLocal\VodaiOS\obj\Debug\Verification.csproj.GenerateResource.Cache
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Veri 9.8\VodaiOSPRODLocal\VodaiOS\obj\Debug\Verification.csproj.CoreCompileInputs.cache
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Veri 9.8\VodaiOSPRODLocal\VodaiOS\obj\Debug\DailyVerification.dll
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Veri 9.8\VodaiOSPRODLocal\VodaiOS\obj\Debug\DailyVerification.pdb
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Mobile\VodaiOSPRODLocal\VodaiOS\obj\Debug\Verification.csprojResolveAssemblyReference.cache
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Mobile\VodaiOSPRODLocal\VodaiOS\obj\Debug\Mobile.Properties.Resources.resources
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Mobile\VodaiOSPRODLocal\VodaiOS\obj\Debug\Verification.csproj.GenerateResource.Cache
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Mobile\VodaiOSPRODLocal\VodaiOS\obj\Debug\Verification.csproj.CoreCompileInputs.cache
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Mobile\VodaiOSPRODLocal\VodaiOS\obj\Debug\DailyVerification.dll
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Mobile\VodaiOSPRODLocal\VodaiOS\obj\Debug\DailyVerification.pdb
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Mobile\VodaiOSPRODLocal\VodaiOS\bin\Debug\DailyVerification.dll
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Mobile\VodaiOSPRODLocal\VodaiOS\bin\Debug\DailyVerification.pdb
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Mobile\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.dll
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Mobile\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.dll
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Mobile\VodaiOSPRODLocal\VodaiOS\bin\Debug\nunit.framework.xml
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Mobile\VodaiOSPRODLocal\VodaiOS\bin\Debug\Xamarin.UITest.xml
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Mobile\MobileApps\MobileApps\bin\Debug\DailyVerification.dll
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Mobile\MobileApps\MobileApps\bin\Debug\DailyVerification.pdb
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Mobile\MobileApps\MobileApps\bin\Debug\nunit.framework.dll
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Mobile\MobileApps\MobileApps\bin\Debug\Xamarin.UITest.dll
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Mobile\MobileApps\MobileApps\bin\Debug\nunit.framework.xml
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Mobile\MobileApps\MobileApps\bin\Debug\Xamarin.UITest.xml
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Mobile\MobileApps\MobileApps\obj\Debug\Verification.csprojResolveAssemblyReference.cache
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Mobile\MobileApps\MobileApps\obj\Debug\Mobile.Properties.Resources.resources
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Mobile\MobileApps\MobileApps\obj\Debug\Verification.csproj.GenerateResource.Cache
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Mobile\MobileApps\MobileApps\obj\Debug\Verification.csproj.CoreCompileInputs.cache
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Mobile\MobileApps\MobileApps\obj\Debug\DailyVerification.dll
+C:\Users\bbdnet1454\Desktop\Projects\XTC\Mobile\MobileApps\MobileApps\obj\Debug\DailyVerification.pdb
+C:\Users\bbdnet1454\Desktop\Projects\Automation\Cloud\XamarinUiTest-CrossPlatform\Mobile\MobileApps\MobileApps\bin\Debug\DailyVerification.dll
+C:\Users\bbdnet1454\Desktop\Projects\Automation\Cloud\XamarinUiTest-CrossPlatform\Mobile\MobileApps\MobileApps\bin\Debug\DailyVerification.pdb
+C:\Users\bbdnet1454\Desktop\Projects\Automation\Cloud\XamarinUiTest-CrossPlatform\Mobile\MobileApps\MobileApps\bin\Debug\nunit.framework.dll
+C:\Users\bbdnet1454\Desktop\Projects\Automation\Cloud\XamarinUiTest-CrossPlatform\Mobile\MobileApps\MobileApps\bin\Debug\Xamarin.UITest.dll
+C:\Users\bbdnet1454\Desktop\Projects\Automation\Cloud\XamarinUiTest-CrossPlatform\Mobile\MobileApps\MobileApps\bin\Debug\nunit.framework.xml
+C:\Users\bbdnet1454\Desktop\Projects\Automation\Cloud\XamarinUiTest-CrossPlatform\Mobile\MobileApps\MobileApps\bin\Debug\Xamarin.UITest.xml
+C:\Users\bbdnet1454\Desktop\Projects\Automation\Cloud\XamarinUiTest-CrossPlatform\Mobile\MobileApps\MobileApps\obj\Debug\Verification.csprojResolveAssemblyReference.cache
+C:\Users\bbdnet1454\Desktop\Projects\Automation\Cloud\XamarinUiTest-CrossPlatform\Mobile\MobileApps\MobileApps\obj\Debug\Mobile.Properties.Resources.resources
+C:\Users\bbdnet1454\Desktop\Projects\Automation\Cloud\XamarinUiTest-CrossPlatform\Mobile\MobileApps\MobileApps\obj\Debug\Verification.csproj.GenerateResource.Cache
+C:\Users\bbdnet1454\Desktop\Projects\Automation\Cloud\XamarinUiTest-CrossPlatform\Mobile\MobileApps\MobileApps\obj\Debug\Verification.csproj.CoreCompileInputs.cache
+C:\Users\bbdnet1454\Desktop\Projects\Automation\Cloud\XamarinUiTest-CrossPlatform\Mobile\MobileApps\MobileApps\obj\Debug\DailyVerification.dll
+C:\Users\bbdnet1454\Desktop\Projects\Automation\Cloud\XamarinUiTest-CrossPlatform\Mobile\MobileApps\MobileApps\obj\Debug\DailyVerification.pdb
