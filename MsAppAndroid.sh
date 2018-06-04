@@ -20,6 +20,3 @@ export Logloc=".\Log\[${CURRENTDATE}].log"
 
 appcenter test run uitest --app "${APPNAME}" --devices "${ANDROID_DEVICE_ID}" --app-path "${APK}" --test-series "${SERIES}" --locale "${LOCALE}" --build-dir "${TEST_ASSEMBLIES}" --include "${TESTDATA1}" --include "${TESTDATA2}" 
 
-
-
-///MobileApps/bin/Debug/
