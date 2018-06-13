@@ -2,15 +2,12 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading;
-using Xamarin.UITest.Android;
-using Xamarin.UITest.iOS;
 using Xamarin.UITest;
 using System.IO;
 using Xamarin.UITest.Queries;
-using Newtonsoft.Json;
-using System.Collections.Generic;
+using NUnit.Framework;
 
-namespace Mobile
+namespace VodaiOS
 {
     public class Core 
     {
@@ -22,12 +19,21 @@ namespace Mobile
 
         public static IApp StartApp(Platform platform)
         {
-            if (platform == Platform.Android)
+
+            if (platform == Platform.iOS && (Properties.Resources.MechineOS.Equals("Windows")))
             {
-                return ConfigureApp.Android.EnableLocalScreenshots().ApkFile(Mobile.Properties.Resources.apkPath).ConnectToApp();
+                //if you are using windows it will ignore all the IOS test scripts since windows can not run IOS applications/simulators
+                Assert.Ignore();
             }
-            else
-                return ConfigureApp.iOS.EnableLocalScreenshots().AppBundle(Properties.Resources.apkPath).StartApp();
+            else { }
+                
+            if (platform == Platform.Android)
+                {
+                    return ConfigureApp.Android.EnableLocalScreenshots().ApkFile(VodaiOS.Properties.Resources.apkPath).StartApp();
+                }
+                else
+                    return ConfigureApp.iOS.EnableLocalScreenshots().AppBundle(Properties.Resources.apkPath).StartApp();
+            
         }
 
 
@@ -46,19 +52,19 @@ namespace Mobile
             try { 
                 app.WaitForElement(x => x.Text(Properties.Resources.env), timeout: TimeSpan.FromSeconds(90));
 
-                app.Tap(x => x.Text(Mobile.Properties.Resources.env));
+                app.Tap(x => x.Text(VodaiOS.Properties.Resources.env));
             }
             catch            {
                 //skip for IOS
             }
 
-            if (Mobile.Properties.Resources.env.Equals("LIVE PROD"))
+            if (VodaiOS.Properties.Resources.env.Equals("LIVE PROD"))
                 {
                     PopulateDictionary(@"Envtestdata/LIVE PROD.txt");
                     PopulateOR(@"EnvtestOR/LIVE PROD OR.txt");
                     //PopulateOR(@"Envtestdata/OR.txt");
                 }
-                else if (Mobile.Properties.Resources.env.Equals("PRODA External"))
+                else if (VodaiOS.Properties.Resources.env.Equals("PRODA External"))
                 {
                     PopulateDictionary(@"Envtestdata/PRODA External.txt");
                     // PopulateOR(@"EnvtestOR/LIVE PROD OR.txt");
@@ -233,11 +239,48 @@ namespace Mobile
             app.Tap(x => x.Text(Core.OR["Logout"]));
 
        
-                app.WaitForElement(x => x.Text("Welcome to My Vodacom"), timeout: TimeSpan.FromSeconds(30));
+             //   app.WaitForElement(x => x.Text("Welcome to My Vodacom"), timeout: TimeSpan.FromSeconds(30));
             
         }
 
-             
+
+        public static void PurchaseSummary(IApp app,string testname)
+        {
+            app.WaitForElement(x => x.Text(Core.OR["PaymentOptions"]), timeout: TimeSpan.FromSeconds(11));
+            app.WaitForElement(x => x.Text(Core.OR["Purchasesummary"]), timeout: TimeSpan.FromSeconds(10));
+            TakeScreenShot(app,"Purchase summary", testname);
+
+            app.ScrollDown();
+            app.Tap(x => x.Text("Buy"));
+            WaitForLoadingScreen(app);
+            try
+            {
+                app.WaitForElement(x => x.Text(Core.OR["Success"]), timeout: TimeSpan.FromSeconds(25));
+                TakeScreenShot(app,"Success", testname);
+                app.WaitForElement(x => x.Text(Core.OR["Ok"]), timeout: TimeSpan.FromSeconds(10));
+                app.Tap(x => x.Text(Core.OR["Ok"]));
+            }
+            catch
+            {
+                try
+                {
+                    //When user is not authorised to perform purchase msg pops up
+                    var message = app.WaitForElement(x => x.Marked("Message")).First().Text;
+                    app.WaitForElement(x => x.Text(message));
+                    Core.TakeScreenShot(app, "User_Not_Authorised", testname);
+                    app.Tap(x => x.Text(Core.OR["Ok"]));
+                }
+                catch
+                {
+                    app.WaitForElement(x => x.Text("You do not have enough airtime. Please select a cheaper bundle or buy airtime first."), timeout: TimeSpan.FromSeconds(25));
+                    Core.TakeScreenShot(app, "Out Of Airtime", testname);
+                    app.Tap(x => x.Text(Core.OR["Ok"]));
+                }
+            }
+
+            SurveyPopUp(app,testname);
+        }
+
         public static void ProceedBtn(IApp app, string testname)
         {
            
@@ -382,7 +425,7 @@ namespace Mobile
             Core.TakeScreenShot(app, "Tap - Back Button Icon", testname);
 
             //VOICE BALANCES
-            Mobile.Core.Menu(app, testname);
+            VodaiOS.Core.Menu(app, testname);
             app.WaitForElement(x => x.Text(Core.OR["VoiceBal"]), timeout: TimeSpan.FromSeconds(30));
             Core.TakeScreenShot(app, "Veri - Voice balances", testname);
             app.Tap(x => x.Text(Core.OR["VoiceBal"]));
@@ -417,7 +460,7 @@ namespace Mobile
 
         public static void myBill(IApp app, string testname)
         {
-            Mobile.Core.Menu(app, testname);
+            VodaiOS.Core.Menu(app, testname);
             app.WaitForElement(x => x.Text(Core.OR["Mybill"]));
             Core.TakeScreenShot(app, "Veri - My bill", testname);
             app.Tap(x => x.Text(Core.OR["Mybill"]));
@@ -431,10 +474,10 @@ namespace Mobile
 
         //public static void myOffer(IApp app, string testname)
         //{
-        //    Core.Menu(testname);
+        //    Core.Menu(app,testname);
         //    app.WaitForElement(x => x.Text(Core.OR["Just4You"]));
         //    app.Tap(x => x.Marked(Core.OR["Just4You"]));
-        //    Core.TakeScreenShot("Veri - Just 4 You", testname);
+        //    Core.TakeScreenShot(app,"Veri - Just 4 You", testname);
         //    app.Tap(x => x.Marked(Core.OR["Backbtn"]));
         //}
 
@@ -458,14 +501,14 @@ namespace Mobile
 
         //public static void shopping(IApp app, string testname)
         //{
-        //    Core.Menu(testname);
+        //    Core.Menu(app,testname);
         //    app.WaitForElement(x => x.Text(Core.OR["Shopping"]), timeout: TimeSpan.FromSeconds(30));
-        //    Core.TakeScreenShot("Veri - Shopping", testname);
+        //    Core.TakeScreenShot(app,"Veri - Shopping", testname);
         //    app.Tap(x => x.Text(Core.OR["Shopping"]));
 
         //    app.WaitForElement(x => x.Class(Core.OR["FormsImageView"]), timeout: TimeSpan.FromSeconds(30));
         //    app.WaitForElement(x => x.Text(Core.OR["Shopping"]), timeout: TimeSpan.FromSeconds(30));
-        //    Core.TakeScreenShot("Shopping screen is dispalying", testname);
+        //    Core.TakeScreenShot(app,"Shopping screen is dispalying", testname);
         //    app.WaitForElement(x => x.Marked(Core.OR["Backbtn"]), timeout: TimeSpan.FromSeconds(30));
         //    app.Tap(x => x.Marked(Core.OR["Backbtn"]));
         //    //  app.Screenshot("Tap view with class: FormsImageView with marked: Back button");
@@ -473,67 +516,67 @@ namespace Mobile
 
         //public static void services(IApp app, string testname)
         //{
-        //    Core.Menu(testname);
+        //    Core.Menu(app,testname);
         //    //Free SMS
         //    app.ScrollDownTo(x => x.Text(Core.OR["Services"]));
         //    app.WaitForElement(x => x.Text(Core.OR["Services"]), timeout: TimeSpan.FromSeconds(30));
-        //    Core.TakeScreenShot("Veri - Services", testname);
+        //    Core.TakeScreenShot(app,"Veri - Services", testname);
         //    //app.ScrollTo(x => x.Text(Core.OR["SendFreeSMS"]));
         //    app.WaitForElement(x => x.Text(Core.OR["SendFreeSMS"]), timeout: TimeSpan.FromSeconds(30));
-        //    Core.TakeScreenShot("Veri - Send Free SMS", testname);
+        //    Core.TakeScreenShot(app,"Veri - Send Free SMS", testname);
         //    app.Tap(x => x.Text(Core.OR["SendFreeSMS"]));
-        //    Core.TakeScreenShot("Tap - Send Free SMS", testname);
+        //    Core.TakeScreenShot(app,"Tap - Send Free SMS", testname);
         //    //app.WaitForNoElement();
         //    //app.WaitForElement(x => x.Text("Free SMS's left for today"), timeout: TimeSpan.FromSeconds(30));
         //    app.WaitForElement(x => x.Marked(Core.OR["CellphoneNumberTextBox"]), timeout: TimeSpan.FromSeconds(30));
-        //    Core.TakeScreenShot("Wait - CellphoneNumberTextBox", testname);
+        //    Core.TakeScreenShot(app,"Wait - CellphoneNumberTextBox", testname);
         //    app.Tap(x => x.Marked(Core.OR["CellphoneNumberTextBox"]));
-        //    Core.TakeScreenShot("Tap - CellphoneNumberTextBox", testname);
-        //    Core.TakeScreenShot("Send Free SMS screen is displyaing", testname);
+        //    Core.TakeScreenShot(app,"Tap - CellphoneNumberTextBox", testname);
+        //    Core.TakeScreenShot(app,"Send Free SMS screen is displyaing", testname);
         //    app.WaitForElement(x => x.Marked(Core.OR["Backbtn"]), timeout: TimeSpan.FromSeconds(30));
         //    app.Tap(x => x.Marked(Core.OR["Backbtn"]));
 
         //    //RECHARGE
-        //    Core.Menu(testname);
+        //    Core.Menu(app,testname);
         //  //  app.ScrollTo(x => x.Text(Core.OR["Recharge"]));
         //    app.WaitForElement(x => x.Text(Core.OR["Recharge"]), timeout: TimeSpan.FromSeconds(30));
-        //    Core.TakeScreenShot("Veri - Recharge", testname);
+        //    Core.TakeScreenShot(app,"Veri - Recharge", testname);
         //    app.Tap(x => x.Text(Core.OR["Recharge"]));
-        //    Core.TakeScreenShot("Tap - Recharge", testname);
+        //    Core.TakeScreenShot(app,"Tap - Recharge", testname);
         //    app.WaitForElement(x => x.Marked(Core.OR["CellTextBox"]), timeout: TimeSpan.FromSeconds(30));
-        //    Core.TakeScreenShot("Wait - CellTextBox", testname);
+        //    Core.TakeScreenShot(app,"Wait - CellTextBox", testname);
         //    app.Tap(x => x.Marked(Core.OR["CellTextBox"]));
-        //    Core.TakeScreenShot("Tap - CellTextBox", testname);
-        //    Core.TakeScreenShot("Recharge screen is dispaying", testname);
+        //    Core.TakeScreenShot(app,"Tap - CellTextBox", testname);
+        //    Core.TakeScreenShot(app,"Recharge screen is dispaying", testname);
         //    app.WaitForElement(x => x.Marked(Core.OR["Backbtn"]), timeout: TimeSpan.FromSeconds(30));
         //    app.Tap(x => x.Marked(Core.OR["Backbtn"]));
         //    //app.Screenshot("Tap view with class: FormsImageView with marked: Back button");
 
         //    //PURCHASE HISTORY
-        //    Core.Menu(testname);
+        //    Core.Menu(app,testname);
         //  //  app.ScrollTo(x => x.Text(Core.OR["PurchaseHistory"]));
         //    app.WaitForElement(x => x.Text(Core.OR["PurchaseHistory"]), timeout: TimeSpan.FromSeconds(30));
-        //    Core.TakeScreenShot("Veri - Purchase History", testname);
+        //    Core.TakeScreenShot(app,"Veri - Purchase History", testname);
         //    app.Tap(x => x.Text(Core.OR["PurchaseHistory"]));
-        //    Core.TakeScreenShot("Tap - Purchase History", testname);
+        //    Core.TakeScreenShot(app,"Tap - Purchase History", testname);
         //    //app.WaitForElement(x => x.Text(Core.OR["PurchaseHistory"]), timeout: TimeSpan.FromSeconds(30));
         //    app.WaitForElement(x => x.Text("Order number"), timeout: TimeSpan.FromSeconds(30));
-        //    Core.TakeScreenShot("Purchase History screen is dispaying", testname);
+        //    Core.TakeScreenShot(app,"Purchase History screen is dispaying", testname);
         //    app.WaitForElement(x => x.Marked(Core.OR["Backbtn"]), timeout: TimeSpan.FromSeconds(30));
         //    app.Tap(x => x.Marked(Core.OR["Backbtn"]));
 
     
 
         //    //MANAGE SERVICES
-        //    Core.Menu(testname);
+        //    Core.Menu(app,testname);
         //  //  app.ScrollTo(x => x.Text(Core.OR["Manageservices"]), timeout: TimeSpan.FromSeconds(30));
         //    app.WaitForElement(x => x.Text(Core.OR["Manageservices"]));
-        //    Core.TakeScreenShot("Veri - Manage services", testname);
+        //    Core.TakeScreenShot(app,"Veri - Manage services", testname);
         //    app.Tap(x => x.Text(Core.OR["Manageservices"]));
-        //    Core.TakeScreenShot("Tap - Manage services", testname);
+        //    Core.TakeScreenShot(app,"Tap - Manage services", testname);
         //    app.WaitForElement(x => x.Text(Core.OR["Manageservices"]), timeout: TimeSpan.FromSeconds(30));
         //    app.WaitForElement(x => x.Text(Core.OR["Manageservices"]), timeout: TimeSpan.FromSeconds(30));
-        //    Core.TakeScreenShot("Wait - Manage services", testname);
+        //    Core.TakeScreenShot(app,"Wait - Manage services", testname);
         //    app.WaitForElement(x => x.Marked(Core.OR["Backbtn"]), timeout: TimeSpan.FromSeconds(30));
         //    app.Tap(x => x.Marked(Core.OR["Backbtn"]));
 
@@ -542,17 +585,17 @@ namespace Mobile
 
         //public static void RewardsEveryDay(IApp app, string testname)
         //{
-        //    Core.Menu(testname);
+        //    Core.Menu(app,testname);
         //    app.ScrollDownTo(x => x.Text(Core.OR["Vodacomrewards"]));
         //    app.WaitForElement(x => x.Text(Core.OR["Vodacomrewards"]));
         //    app.Tap(Core.OR["Vodacomrewards"]);
-        //    Core.TakeScreenShot("Vodacom rewards Tap", testname);
+        //    Core.TakeScreenShot(app,"Vodacom rewards Tap", testname);
 
         //    app.Tap(x => x.Marked(Core.OR["Backbtn"]));
-        //    Core.Menu(testname);
+        //    Core.Menu(app,testname);
         //    app.WaitForElement(x => x.Text(Core.OR["Partnerrewards"]));
         //    app.Tap(Core.OR["Partnerrewards"]);
-        //    Core.TakeScreenShot("Partner rewards Tap", testname);
+        //    Core.TakeScreenShot(app,"Partner rewards Tap", testname);
         //    Core.StandardRates(testname);
         //    //app.Tap(x => x.Marked(Core.OR["Backbtn"]));
         //}
